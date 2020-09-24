@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="MakemyTrip Application" verbose="1">
+<parameter name ="browser" value="chrome"/>
+	<test name="MakemyTriptest">
+		<classes>
+			<class name="com.MakemyTripApp.tests.TC_MakeMyTrip" />
+		</classes>
+	</test>
+</suite>

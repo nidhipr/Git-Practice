@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MakemyTrip Application" duration-ms="21153" started-at="2020-09-20T16:05:29 IST" finished-at="2020-09-20T16:05:51 IST">
+    <groups>
+    </groups>
+    <test name="MakemyTriptest" duration-ms="21153" started-at="2020-09-20T16:05:29 IST" finished-at="2020-09-20T16:05:51 IST">
+      <class name="com.MakemyTripApp.tests.TC_MakeMyTrip">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.MakemyTripApp.tests.TC_MakeMyTrip@631330c]" name="setup" is-config="true" duration-ms="5478" started-at="2020-09-20T16:05:29 IST" finished-at="2020-09-20T16:05:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bookFlight()[pri:0, instance:com.MakemyTripApp.tests.TC_MakeMyTrip@631330c]" name="bookFlight" duration-ms="14821" started-at="2020-09-20T16:05:35 IST" finished-at="2020-09-20T16:05:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlight -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.MakemyTripApp.tests.TC_MakeMyTrip@631330c]" name="close" is-config="true" duration-ms="820" started-at="2020-09-20T16:05:50 IST" finished-at="2020-09-20T16:05:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.MakemyTripApp.tests.TC_MakeMyTrip -->
+    </test> <!-- MakemyTriptest -->
+  </suite> <!-- MakemyTrip Application -->
+</testng-results>
