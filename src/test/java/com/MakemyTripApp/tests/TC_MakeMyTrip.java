@@ -46,6 +46,8 @@ public class TC_MakeMyTrip extends BaseClass {
 			//minimum price 
 			String price =mp.mincharge();
 			System.out.println(price);
+			System.out.println("git updated");
+			System.out.println("new git learning");
 			
 			//mp.countFlight();
 		} catch (InterruptedException e) {
